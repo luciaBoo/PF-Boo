@@ -1,3 +1,92 @@
+.bgPrincipal {
+  background-image: url(../img/nav2.png);
+}
 
+.nav-link:hover {
+  font-size: 20px;
+  background-color: rgba(206, 193, 193, 0.705);
+}
+
+.nav-link {
+  text-decoration: none;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+.bg-grey {
+  background-color: rgba(232, 225, 235, 0.842);
+  padding: 25px;
+}
+
+.bg-pink {
+  background-color: rgb(255, 243, 228);
+  padding: 10px;
+}
+
+.img-fluid:hover {
+  padding-bottom: 10px;
+  background-color: rgba(206, 193, 193, 0.705);
+}
+
+.img-fluid {
+  text-decoration: none;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Gloock";
+  padding: 20px 5px;
+  font-size: 45px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(../fonts/Rubikfont.ttf);
+}
+@font-face {
+  font-family: "Gloock";
+  src: url(../fonts/Gloock-Regular.ttf);
+}
+h2, h3, h4, h5, h6 {
+  font-family: "Rubik";
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: lighter;
+}
+
+.datosP {
+  font-family: "Rubik";
+  padding-left: 15px;
+  display: inline;
+  font-weight: lighter;
+}
+
+.PDG05 {
+  padding-top: 5px;
+}
+
+.PDG15 {
+  padding-top: 15px;
+}
+
+.PDG30 {
+  padding-top: 30px;
+}
+
+footer {
+  background-color: rgba(175, 172, 173, 0.171);
+  padding-top: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */
