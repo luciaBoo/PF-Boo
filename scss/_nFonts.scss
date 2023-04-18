@@ -1,0 +1,19 @@
+@font-face {
+    font-family: $f-family-secundario;
+    src: url(../fonts/Rubikfont.ttf);
+}
+@font-face {
+    font-family: $f-family-primario ;
+    src: url(../fonts/Gloock-Regular.ttf);
+}
+h2, h3, h4, h5, h6{
+    font-family: $f-family-secundario;
+}
+h2, h3, h4, h5, h6{
+    font-weight: lighter;
+}
+h1{
+    font-family: $f-family-primario ;
+    font-size: 45px;
+}
+.datosP{font-family: $f-family-secundario;}
