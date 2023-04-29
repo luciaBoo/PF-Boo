@@ -5,6 +5,15 @@
 h1{
     padding: 20px 5px;
 }
+.card:hover{
+    font-size:large;
+    border-color: rgb(85, 84, 84);
+}
+.card{
+    transition: all .5s; 
+    border-radius:10px; 
+    padding: 20px; margin: 10px; 
+    background-color: rgb(236, 234, 234);}
 .datosP{
     padding-left: 15px;
     display: inline;
