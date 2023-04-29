@@ -10,6 +10,9 @@ h1{
     display: inline;
     font-weight: lighter;
 }
+.cajaContacto{
+    padding: 30px;
+}
 .PDG05{padding-top: 5px;}
 .PDG15{padding-top: 15px;}
 .PDG30{padding-top: 30px;}
@@ -18,8 +21,8 @@ h1{
     padding: 10px 50px;
 }
 footer{
-    background-color: rgba(175, 172, 173, 0.171); padding-top: 40px;}
-
+    background-color: rgba(175, 172, 173, 0.171); padding-top: 40px
+}
 @media (max-width:768px)
     {
         h6{font-size:smaller; padding-top: 5px; padding-bottom: 5px;}
