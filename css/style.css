@@ -19,7 +19,7 @@ li {
 }
 
 .bgPrincipal {
-  background-color: rgba(87, 86, 86, 0.397);
+  background-color: rgba(206, 180, 180, 0.63);
 }
 
 .bg-grey {
@@ -29,7 +29,7 @@ li {
 
 .bg-pink {
   background-color: rgb(255, 243, 228);
-  padding: 10px;
+  padding: 25px;
 }
 
 @font-face {
@@ -96,13 +96,8 @@ h1 {
   padding-top: 30px;
 }
 
-.respuestaPF {
-  display: inline;
-  padding: 10px 50px;
-}
-
 footer {
-  background-color: rgba(175, 172, 173, 0.171);
+  background-color: rgba(63, 61, 62, 0.171);
   padding-top: 40px;
 }
 
@@ -123,6 +118,10 @@ footer {
 @media (min-width: 800px) {
   .title_ubicacion {
     font-size: 25px;
+  }
+  .respuestaPF {
+    display: inline;
+    padding: 10px 50px;
   }
 }
 
