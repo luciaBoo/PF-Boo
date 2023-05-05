@@ -15,18 +15,18 @@ h1{
     padding: 20px; margin: 10px; 
     background-color: rgb(236, 234, 234);}
 .datosP{
-    padding-left: 15px;
+    padding: 15px;
     display: inline;
     font-weight: lighter;
 }
 .cajaContacto{
-    padding: 30px;
+    padding: 50px 25px;
 }
 .PDG05{padding-top: 5px;}
 .PDG15{padding-top: 15px;}
 .PDG30{padding-top: 30px;}
 footer{
-    background-color: rgba(63, 61, 62, 0.171); padding-top: 40px;
+    background-color: rgba(63, 61, 62, 0.171); margin-top: 40px;
 }
 @media (max-width:768px)
     {
@@ -34,6 +34,7 @@ footer{
         .bg-grey{
             background-color: rgba(232, 225, 235, 0.842); padding: 10px;}
         .title_ubicacion{font-size: 7px;}
+        .cajaContacto{margin: 20px 10px;}
     }
 
 @media (min-width: 800px)

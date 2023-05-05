@@ -75,13 +75,13 @@ h1 {
 }
 
 .datosP {
-  padding-left: 15px;
+  padding: 15px;
   display: inline;
   font-weight: lighter;
 }
 
 .cajaContacto {
-  padding: 30px;
+  padding: 50px 25px;
 }
 
 .PDG05 {
@@ -98,7 +98,7 @@ h1 {
 
 footer {
   background-color: rgba(63, 61, 62, 0.171);
-  padding-top: 40px;
+  margin-top: 40px;
 }
 
 @media (max-width: 768px) {
@@ -113,6 +113,9 @@ footer {
   }
   .title_ubicacion {
     font-size: 7px;
+  }
+  .cajaContacto {
+    margin: 20px 10px;
   }
 }
 @media (min-width: 800px) {
